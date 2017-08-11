@@ -1,0 +1,99 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+     
+    margin: auto;
+    overflow: hidden;
+}
+#Cabecera{
+    background: grey;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+    font-family: cursive;
+}
+#Cabecera a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#Cabecera ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+#Cabecera li{
+    background-color: red;
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    
+}
+#Cabecera #titulo{
+       color: orangered;
+       text-align: center;
+       font-size: 30px;
+} 
+#Cabecera #titulo h1{
+    margin: 0;
+}
+#Cabecera nav{
+    
+    margin-top: 10px;
+}
+#portada{
+    min-height: 400px;
+    background: url(../img/ferreteria.jpg) center no-repeat;
+    text-align: center;
+    color: red;
+    width: 100%;
+    font-family:fantasy;
+}
+#portada h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+#portada p{
+    font-size: 20px;
+    color: orangered;
+}
+#Pie{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+#whowe {
+    margin: auto;
+}
+#izquierda{
+    text-decoration: none;
+}
+#derecha{
+    
+    text-align: center;
+}
+#formulario{
+    display: inline-block;
+    font-family: arial black;
+    font-size: 20px;
+    background: greenyellow;
+    width: 800px;
+    margin: 1em;
+    
+}
+label{
+    
+    display: inline-block;
+    width: 800px;
+    
+    font-size: 20px;
+}

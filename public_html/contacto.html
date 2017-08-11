@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="Cabecera" class="container">
+            <div id="titulo">
+                <h1>FerreWeb</h1>
+            </div>
+            
+             <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>    
+        <div id="formulario">
+           
+           <h1>Formulario</h1>
+            <form>
+                <div>
+                <label form="nombre"> Nombre:</label>
+                <input type="text" id="nombre"/>
+                </div>
+                </br>
+                <div>
+                <label form="telefono"> Telefono:</label>
+                <input type="text" id="telefono"/>
+                </div>
+                </br>
+                <div>
+                <label form="correo"> e-Mail:</label>
+                <input type="email" id="correo"/>
+                </div>
+                </br>
+                <div>
+                <label form="lista">Que Necesitas?</label> <br/>
+                 <select id="lista" name="so">
+                 <option value="" selected="selected">- selecciona -</option>
+                 <option value="costo">Costo de Habitaciones</option>
+                 <option value="mac">Precio por noche</option>
+                 <option value="linux">Que ofrecemos</option>
+                 <option value="otro">Otro</option>
+                 </select>
+                </div> 
+                </br>
+                <div>
+                <label form="comentario"> Comentario:</label>                
+                <textarea id="asunto" cols="50" rows="10"></textarea>
+                </div>
+                </br>
+                <button type="submit">Enviar</button>
+            
+            </form>
+        </div>
+            
+        <div id="Pie" class="container">
+            <p>Ferreweb, Copyright &copy;</p>
+        </div>
+    </body>
+</html>
